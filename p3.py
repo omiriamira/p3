@@ -16,7 +16,7 @@ for question,options,correct_answer, score in questions:
     console.print(f"\n{question}")
     for opt in options:
         print(opt)
-
+    
     answer:str =input("your answer").strip().upper()
     if answer==correct_answer:
         console.print("[green]Correct[/green]")
