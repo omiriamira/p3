@@ -44,3 +44,4 @@ class Match:
             return player1
         else:
             return player2
+        
